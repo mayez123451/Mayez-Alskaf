@@ -1,0 +1,341 @@
+
+
+li, a, button {
+
+    font-family: "Montserrat ", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30xp 10 ;
+    
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 5%;
+  height: auto;
+}
+.nav__links {
+
+    list-style: none;
+}
+.nav__links li {
+
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+
+}
+.nav__links li a:hover {
+    color: #0088a9;
+}
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:  none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+    
+}
+ .nav__links ul li {
+     display: none;
+ }
+ .nav__links ul li:hover .nav__links ul li{
+     display: block;}
+
+     .header1 {margin: 50px;}
+/* Start Part Harleem */
+ .Haarlem1  img {
+     float: right;
+     margin: 20px;
+ }
+
+ .Haarlem1 .firstTitle  {
+     text-align: center;
+     margin-top: 30px;
+     color: orange;
+ }
+ .Haarlem1 p{
+     margin-top: 30px;
+     color: #FFF;
+ }
+
+ .Haarlem1 {
+     overflow: hidden;
+     margin: 30px;
+     margin-top: 100px;
+    
+ }
+/* End  Part Harleem */
+
+/* Start  Part Bewoenrs  */
+
+.bewoners1 h1 {
+    color: orange;;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+.bewoners1 p {
+    color: #FFF;
+    margin-top: 30px;
+
+    
+}
+
+.bewoners1 img {
+    float: left;
+    margin: 20px;
+}
+.bewoners1 {
+    overflow: hidden;
+    margin: 30px;
+}
+
+/* End  Part Bewoenrs  */
+
+
+
+@media(min-width:480px)
+/*media query */
+
+@media (min-width: 1281px) {
+  
+    //CSS
+    
+  }
+  
+ 
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    //CSS
+    
+  }
+  
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    //CSS
+    
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    //CSS
+    
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    //CSS
+    
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    //CSS
+    
+  }
+
+  /*END MEdia query */
+
+
+/* Start part Haarlem Noord AND Sport And */
+
+.Haarlem_Noord h1{
+
+    text-align: center;
+    color: orange;
+    margin-top: 200px;
+}
+
+.Haarlem_Noord img{
+    
+    padding: 60px;
+    margin: 60px;
+    text-align: center;
+    
+}
+.Haarlem_Noord p{
+    color: white;
+    padding: 50px;
+    margin-top: auto;
+}
+.Haarlem_Noord h2{
+    color: orange;
+    text-align: center;
+}
+/* END part Haarlem Noord */
+
+/*Start Part Sport  */
+#sport, #Hocky_club{
+    color: #cc8500;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+#sport, #sparks{
+    color: #cc8500;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+#sport, #HFC{
+    color: #cc8500;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.Haarlem_Noord, #Hockey{
+    text-align: left;
+    
+}
+.Haarlem_Noord, #Hockey{
+    text-align: left;
+}
+.Haarlem_Noord, #vv{
+    text-align: center;
+}
+.Haarlem_Noord, #Haarlem_stadium{
+    text-align: right;
+    overflow: hidden;
+}
+#photos{
+    margin-top: 10px;
+}
+#sport, #shopingnight{
+    text-align: center;
+}
+
+.aboutSport, #sportInfo{
+    color: white;
+}
+.aboutSport, #basicPhoto{
+    float: right;
+    overflow: hidden;
+    
+}
+.aboutSport, #basicfit{
+    color: white;
+    text-align: right;
+    margin-top: 200px;
+    
+}
+.aboutSport,#linkbasic{
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+.aboutSport, #kenamju{
+    margin-top: 200px;
+}
+.aboutSport, #kenamjuPhoto{
+    float: left;
+    
+    
+}
+.aboutSport, #linkKenamju{
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+    
+
+}
+.aboutSport #cardio{
+    float: right;
+}
+.aboutSport, #cardioAbout{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    margin-top: 200px;
+}
+.aboutSport #linkCardio{
+    color: orange;
+}
+.aboutSport #FitForFree{
+    float: left;
+}
+.aboutSport #FirForeFree_{
+    text-align: left;
+    margin-top: 250px;
+}
+.aboutSport #FirForFreeLink{
+    color: orange;
+}
+/*End Part Sport*/
+
+/*Start Part Raferal */
+
+.referal, #title_{
+    color:orange;
+}
+.referal, #taekwondo{
+    color: white;
+    text-align: right;
+    
+}
+.referal, #linkTaewondo{
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* Start party Contact */
+
+.pure-formpure-form-aligned{
+    margin-top: 40px;
+    position: absolute;
+    background: gray;
+}
+
+/* Start Part Footer*/
+html, body {
+    margin: 0;
+  }
+  
+  
+  
+  footer {
+    
+    position: fixed;
+  height:10%;
+  width:100%;
+  padding-top: 2px;
+  bottom: 0;
+  clear: both;
+  background-color: black;
+  color: white;
+  float: left;
+  overflow: auto;
+ text-align: center;
+    
+  }
+ 
+
+
+
+
+
+
+
